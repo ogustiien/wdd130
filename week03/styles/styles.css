@@ -1,0 +1,57 @@
+:root{
+    --primary-color:#BC6C25;
+    --secondary-color:#BFC69F ;
+    --accent-1-color:#DDA15E;
+    --accent-2-color: #938693;
+    
+}
+
+.logo-box{
+    /* padding-left:  100px ; */
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.hero{
+     /* padding: auto; */
+    background-color:var(--accent-1-color);
+    margin: 10px auto;
+    padding: 20;
+    position: relative;
+}
+
+.hero h1{
+    margin: 10px;
+    text-align: right;    
+    position:absolute;
+    /* top: 90%; */
+    right: 0px;
+    color: white;
+   
+} 
+
+p{
+    position: relative;
+    padding: 20px;
+}
+
+.hero img{
+    width: 210px;
+    float:right;
+    position: relative;
+}
+
+article{
+    position:relative;
+}
+
+footer{
+    border-top: 2px solid var(--accent-2-color);
+}
+
+/* footer a {
+    
+} */
+
+
