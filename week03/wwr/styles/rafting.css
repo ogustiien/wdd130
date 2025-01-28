@@ -15,10 +15,12 @@
 
 h1{
     font-family: Arial, sans-serif;
+    color: black;
 }
 
 h2{
     font-family:'Lucida Sans', Arial, sans-serif ;
+    background-color: var(--accent-2-color);
 }
 
 .hero{
@@ -33,31 +35,50 @@ h2{
     margin: 10px;
     text-align: right;    
     position:absolute;
-    /* top: 90%; */
-    right: 0px;
-    color: white;
-   
+    padding-bottom: 10px;
+    right: 40%;
+    top: 0%;
 } 
+
+article{
+    position:absolute;
+    top: 20px;
+    clear: both;
+}
+
+article img{
+    display: block;
+    float: right;
+    position: absolute;
+    top: 10%;
+}
+img{
+    width: auto;
+}
 
 p{
     position: relative;
     padding: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    background:radial-gradient(#938693,rgba(0, 0, 0, 0));
 }
 
 .hero img{
-    width: 230px;
-    float:right;
+    display: block;
     position: relative;
-}
-
-article{
-    position:relative;
+    /* text-align: center; */
+    padding: 30px;
+    background-color: var(--accent-1-color);
+    
 }
 
 footer{
     border-top: 2px solid var(--accent-2-color);
 }
 
+a{
+    text-decoration: none;
+}
 
 
