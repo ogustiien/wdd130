@@ -9,8 +9,6 @@
 .logo-box{
     /* padding-left:  100px ; */
     text-align: center;
-    padding-left: auto;
-    padding-right: auto;
 }
 
 h1{
@@ -27,7 +25,7 @@ h2{
      /* padding: auto; */
     background-color:var(--accent-1-color);
     margin: 10px auto;
-    padding: 20;
+    padding: 20px;
     position: relative;
 }
 
