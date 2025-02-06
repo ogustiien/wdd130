@@ -128,7 +128,7 @@ img a {
 
 .history{
     display: flex;
-    flex:wrap;
+    /* flex:wrap; */
     background-color: var(--secondary-color);
     /* grid-auto-rows: 3; */
 }
