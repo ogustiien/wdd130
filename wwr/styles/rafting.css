@@ -6,9 +6,41 @@
     
 }
 
+.head_box{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    justify-content: space-between;
+    border: 2px solid var(--primary-color);
+    background-color: var(--accent-2-color);
+}
+    
+
 .logo-box{
-    /* padding-left:  100px ; */
+    display: flex;
     text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    grid-template-columns: 1fr 4fr;
+    background-color: var(--accent-2-color);
+}
+
+
+
+.nav_box{
+    display: flex;
+    height: auto;
+    justify-content:center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box_button{
+    display: grid;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    background-color: var(--primary-color);
 }
 
 h1{
@@ -19,6 +51,7 @@ h1{
 h2{
     font-family:'Lucida Sans', Arial, sans-serif ;
     background-color: var(--accent-2-color);
+    text-align: center;
 }
 
 .hero{
@@ -37,6 +70,10 @@ h2{
     right: 40%;
     top: 0%;
 } 
+
+.hero p{
+    background:radial-gradient(#938693,rgba(0, 0, 0, 0));
+}
 
 article{
     position:absolute;
@@ -59,20 +96,20 @@ p{
     padding: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(0, 0, 0);
-    background:radial-gradient(#938693,rgba(0, 0, 0, 0));
 }
 
 .hero img{
     display: block;
     position: relative;
     /* text-align: center; */
-    padding: 30px;
+    padding: 20px;
     background-color: var(--accent-1-color);
     
 }
 
 footer{
     border-top: 2px solid var(--accent-2-color);
+    background-color: #93869363 ;
 }
 
 a{
@@ -80,8 +117,48 @@ a{
 }
 nav a {
     text-decoration: none;
+    color: azure;
+    font-family: 'Lucida Sans';
+    font-size: large;
 }   
 
 img a {
     width: 20px;
+}
+
+.history{
+    display: flex;
+    flex:wrap;
+    background-color: var(--secondary-color);
+    /* grid-auto-rows: 3; */
+}
+
+/* .history p{
+    flex-wrap: nowrap;
+} */
+
+.history img{
+    order: 2;
+}
+
+.adventure{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.adventure_time{
+    padding: 0px;
+    max-width: 200px;
+}
+
+.footstool{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
+.footer_links{
+    align-self: center;
 }
