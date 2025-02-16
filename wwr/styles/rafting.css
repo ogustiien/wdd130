@@ -162,3 +162,77 @@ img a {
 .footer_links{
     align-self: center;
 }
+
+
+form{
+    padding: 50px;
+    margin: 0 auto;
+    max-width: 75%;
+}
+fieldset{
+    border: 1px solid #f0f0f0;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+ input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #f0f0f0;
+ }
+
+ textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #f0f0f0;
+ }
+
+ .strong{
+    font-size: 18px;
+    line-height: 1.5;
+ }
+ 
+ button{
+    background-color: #BC6C25;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 20px;
+    font-size: larger;
+ }
+
+.guys{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    border: 2px #BC6C25;
+}
+
+figcaption{
+    text-align: center;
+    background-color: #BC6C25;
+    color: #fff;
+}
+
+.message{
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+}
+
+.banner{
+    background-color: #BC6C25;
+    
+}
+
+.banner h1{
+    color: #fff;
+    text-align: center;
+    padding: 3px;
+}
+
+
