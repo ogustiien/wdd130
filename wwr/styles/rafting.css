@@ -239,6 +239,10 @@ figcaption {
     padding-top: 3px;
 
 }
+/* 
+.banner_float{
+    background-color: radial-gradient(#938693,#BC6C25) ;
+} */
 
 .banner_float h4 {
     color: aliceblue;
@@ -246,12 +250,14 @@ figcaption {
     padding-bottom: 3px;
     font-family: 'sans-serif';
     font: italic;
+    background-color: radial-gradient(#938693,#BC6C25) ;
 }
 
 .banner_float h1 {
     color: #fff;
     text-align: center;
     padding-top: 3px;
+    background-color: radial-gradient(#938693,#BC6C25) ;
 }
 
 .main_hero {
@@ -262,6 +268,12 @@ figcaption {
     margin-top: 10px;
 
 }
+
+.main_hero .adv_button{
+    position: relative;
+    bottom: 10%;
+}
+
 
 .title {
     position: absolute;
@@ -276,4 +288,36 @@ figcaption {
 
 .purpose_p {
     background-color: #BFC69F;
+}
+
+.adv_button {
+   background-color: #BC6C25;
+   padding: 30px;
+   margin-left: 30% ;
+   margin-right: 30% ;
+   text-align: center;
+   font-family: 'Lucida Sans',sans-serif;
+   color: aqua;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+main {
+    font-family: var(--paragraph-font);
+    color: var(--text-color);
+    background-color: var(--background-color);
+    max-width: 85%;
+    margin: auto;
+}
+
+.grid_container h2 {
+    margin: 0, 10%;
+}
+
+.trips-1 h2{
+    margin: 0, 10%;
 }
