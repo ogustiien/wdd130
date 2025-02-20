@@ -305,20 +305,19 @@ figcaption {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 main {
-    font-family: var(--paragraph-font);
-    color: var(--text-color);
-    background-color: var(--background-color);
     max-width: 85%;
     margin: auto;
 }
 
 .grid_container h2 {
-    margin: 0 , 10%;
+    margin:10%;
 }
 
 .trips-1 h2{
-    margin: 0 , 10%;
+    margin:10%;
 }
