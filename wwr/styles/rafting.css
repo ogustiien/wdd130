@@ -79,6 +79,7 @@ article {
     position: absolute;
     top: 20px;
     clear: both;
+    text-align: center;
 }
 
 article img {
@@ -224,7 +225,7 @@ figcaption {
 }
 
 .message {
-    display: grid;
+    display:grid;
     grid-template-columns: 1fr , 1fr;
 }
 
@@ -245,19 +246,19 @@ figcaption {
 } */
 
 .banner_float h4 {
-    color: aliceblue;
+    color: #BC6C25;
     text-align: center;
     padding-bottom: 3px;
     font-family: 'sans-serif';
     font: italic;
-    background-color: radial-gradient(#938693,#BC6C25) ;
+    background: radial-gradient(#938693,#bc6b2500) ;
 }
 
 .banner_float h1 {
-    color: #fff;
+    color: #BC6C25;
     text-align: center;
     padding-top: 3px;
-    background-color: radial-gradient(#938693,#BC6C25) ;
+    background: radial-gradient(#938693,#bc6b2500) ;
 }
 
 .main_hero {
@@ -315,9 +316,9 @@ main {
 }
 
 .grid_container h2 {
-    margin: 0, 10%;
+    margin: 0 , 10%;
 }
 
 .trips-1 h2{
-    margin: 0, 10%;
+    margin: 0 , 10%;
 }
